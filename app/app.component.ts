@@ -19,7 +19,7 @@ export class AppComponent {
     this.loader.show({ message: 'Creating pdf...' });
     let tnsPdf = new TNSPDF();
     tnsPdf.createPDF(
-      'Seattle loves NativeScript for Angular', [
+      'Seattle loves NativeScript for Angular!', [
       'http://galvanize-wp.s3.amazonaws.com/wp-content/uploads/2015/03/30170453/Galvanize-Galvanize-logomark-text-only-2-2.png',
       'https://docs.nativescript.org/img/cli-getting-started/angular/chapter0/NativeScript_Angular_logo.png'
     ]).then(() => {

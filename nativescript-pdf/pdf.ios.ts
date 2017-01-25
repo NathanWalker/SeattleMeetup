@@ -12,7 +12,6 @@ export class TNSPDF {
     console.log('A4paperSize:', A4paperSize);
     console.log('SimplePDF:', SimplePDF);
     let pdf = new SimplePDF({ pageSize: A4paperSize, pageMargin: 20 });
-    // let pdf = new SimplePDF();
     // console.log('pdf:', pdf);
     // for (let key in pdf) {
     //   console.log(key, pdf[key]);
