@@ -1,0 +1,12 @@
+{
+ "name": "nativescript-pdf",
+ "version": "1.0.0",
+ "description": "Awesome pdf'ing",
+ "main": "pdf",
+ "typings": "pdf.d.ts",
+ "nativescript": {
+   "platforms": {
+     "ios": "2.4.0"
+   	}
+	}
+}
